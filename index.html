@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tips</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="div1">
+            <i id="reset" onclick="resetBtn()" class="fa-solid fa-rotate-right"></i>
+            <h1 id="result">tips</h1>
+            <h3 id="total"></h3>
+        </div>
+        <div class="div2"> 
+            <input type="text" id="txtPer"><br />
+            <h1>%</h1>
+        </div>
+        <div class="div3" >
+            <input type="text" id="txtMultiply" >
+            <h1>x</h1>    
+        </div>
+        <div class="div4"> 
+            <input type="text" id="txtDollar">
+            <h1>$</h1>
+        </div>
+        <div class="div5"> 
+            <input type="text" id="txtDivide">
+            <h1>÷</h1>
+        </div>
+        <div class="div6"> 
+            <input type="text" id="txtAmount">
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="div7">
+            <button id="btn" onclick="calculate()">Calculate</button>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
